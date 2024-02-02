@@ -18,7 +18,7 @@ import java.util.TreeMap;
 public class AspirantesMinisterio implements Serializable {
     @Serial
     private static final long serialVersionUID = -1632909041346606036L;
-    private final String especialidad;
+    private String especialidad;
     protected Map<String, AdjudicacionMinisterio> autonomias = new TreeMap<>();
     public AspirantesMinisterio(String especialidad) {
         this.especialidad = especialidad;

@@ -5,7 +5,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class EspecialidadDAOImpl implements EspecialidadDAO {
-    private final Connection connection;
+    private Connection connection;
 
     public EspecialidadDAOImpl(Connection connection) {
         this.connection = connection;

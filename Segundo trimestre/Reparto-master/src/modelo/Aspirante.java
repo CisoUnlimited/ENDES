@@ -321,7 +321,8 @@ public class Aspirante implements Serializable, Cloneable {
         elecciones.add(eleccion);
     }
     public String info() {
-        return String.format("%f %s %s\n", notaNacional, dni, nombre);
+        StringBuilder cad = new StringBuilder(String.format("%f %s %s\n", notaNacional, dni, nombre));
+        return cad.toString();
     }
     @Override
     public String toString() {

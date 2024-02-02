@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class AutonomiaDAOImpl implements AutonomiaDAO{
-    private final Connection connection;
+    private Connection connection;
 
     // Constructor que recibe la conexión a la base de datos
     public AutonomiaDAOImpl(Connection connection) {

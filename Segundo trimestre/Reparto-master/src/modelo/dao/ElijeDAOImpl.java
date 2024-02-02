@@ -5,7 +5,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class ElijeDAOImpl implements ElijeDAO {
-    private final Connection connection;
+    private Connection connection;
 
     public ElijeDAOImpl(Connection connection) {
         this.connection = connection;
