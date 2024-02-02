@@ -6,14 +6,14 @@ import java.io.Serializable;
 public class AspiranteMinisterio implements Serializable {
     @Serial
     private static final long serialVersionUID = 1070412540609894375L;
-    private int especialidad;
-    private boolean libre;
-    private int pos;
-    private String dni;
-    private String comunOrigen;
-    private String nombre;
-    private float nota;
-    private boolean euskera;
+    private final int especialidad;
+    private final boolean libre;
+    private final int pos;
+    private final String dni;
+    private final String comunOrigen;
+    private final String nombre;
+    private final float nota;
+    private final boolean euskera;
     public int getEspecialidad() {
         return especialidad;
     }

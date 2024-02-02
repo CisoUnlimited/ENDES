@@ -54,7 +54,7 @@ public class LineaEleccion {
 
                 }
                 String[] trozos = eleccion(valor);
-                System.out.println(String.format("Libre: %b",(trozos[0].equals("L"))?true:false));
+                System.out.printf("Libre: %b%n", trozos[0].equals("L"));
                 trozos[1]=trozos[1].trim().replace(",",".");
                 System.out.printf("Nota: %f\n",Float.parseFloat(trozos[1]));
             }

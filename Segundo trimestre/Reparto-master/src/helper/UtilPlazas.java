@@ -4,7 +4,7 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 public class UtilPlazas {
-    private UtilPlazas(){};
+    private UtilPlazas(){}
 
     //Expresiones regulares para el fichero de plazas
 /*

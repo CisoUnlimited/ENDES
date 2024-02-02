@@ -32,10 +32,7 @@ import java.util.*;
          if (reparto!=null && !reparto.isCompleto())
              return false;
          reparto = autonomias.get(Comun.NAVARRA_L_K);
-         if (reparto!=null && !reparto.isCompleto())
-             return false;
-
-         return true;
+         return reparto == null || reparto.isCompleto();
      }
     public void ejecuta(){ //no trabajo con las plazas de euskera ÑÑÑÑ
         aspirantes.ordenacionDeMayorAMenor();

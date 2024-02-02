@@ -5,7 +5,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class ParticipaDAOImpl implements ParticipaDAO {
-    private Connection connection;
+    private final Connection connection;
 
     public ParticipaDAOImpl(Connection connection) {
         this.connection = connection;

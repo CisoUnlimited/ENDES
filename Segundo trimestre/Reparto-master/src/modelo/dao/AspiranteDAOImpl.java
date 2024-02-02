@@ -5,7 +5,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class AspiranteDAOImpl implements AspiranteDAO {
-    private Connection connection;
+    private final Connection connection;
 
     public AspiranteDAOImpl(Connection connection) {
         this.connection = connection;

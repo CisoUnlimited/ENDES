@@ -5,7 +5,7 @@ import java.sql.DriverManager;
 import java.sql.SQLException;
 public class ConexionBD {
     private static ConexionBD conexionBD = null;
-    private Connection conexion;
+    private final Connection conexion;
     private ConexionBD(Connection conexion) {
         this.conexion=conexion;
     }
