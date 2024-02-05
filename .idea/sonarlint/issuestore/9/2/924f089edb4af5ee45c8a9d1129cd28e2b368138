@@ -1,0 +1,10 @@
+
+±
+java:S1598"“This file "Main.java" should be located in "practicaunidad3" directory, not in "C:\Proyectos IntelliJ\ENDES\Segundo trimestre\Casos de prueba\src".(¿ ³¾8’Ô×1
+v	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(¿ ³¾8’Ô×1
+L	java:S106"+Replace this use of System.err by a logger.(ïù¯¯ûÿÿÿÿ8œ’Ô×1
+G	java:S106"+Replace this use of System.out by a logger.(ÂÂÂ8’Ô×1
+G	java:S106!"+Replace this use of System.out by a logger.(Ö¸¹Ç8’Ô×1
+L	java:S106%"+Replace this use of System.err by a logger.(ïù¯¯ûÿÿÿÿ8’Ô×1
+L	java:S106&"+Replace this use of System.out by a logger.(õñĞ°şÿÿÿÿ8Ÿ’Ô×1
+G	java:S106)"+Replace this use of System.out by a logger.(†ÀÃ•8 ’Ô×1
