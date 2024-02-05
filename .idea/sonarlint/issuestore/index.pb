@@ -14,3 +14,11 @@ C
 :
 
 .gitignore,a\5\a5cc2925ca8258af241be7e5b0381edf30266302
+G
+src/modelo/CCuenta.java,5\1\51a8a088bf202b68222c75b3495b5d3b514a611e
+F
+src/test/MainTest.java,9\a\9aa08b722d95e6753b8ecd823ab188543a859557
+A
+src/MainTest.java,f\b\fbe4a19bdb1c5454c9c81dff3595c2a5c1ca11f9
+I
+src/test/CCuentaTest.java,e\a\eaf2aba5f8e1faf5542a00446559b4530b2ab34a
